@@ -1,5 +1,26 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter{
+    background: black;
+    color: white;
+    font-size: 4rem;;
+    .svg-inline--fa{
+        margin: 1rem 2rem;
+    }
+    .digit{
+        border-left: 1px solid #e9e8e8;
+        padding: 1rem 2rem;
+}
+}
+
+
 /* 
 
     You can write your own styles here...
