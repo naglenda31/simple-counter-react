@@ -10,14 +10,19 @@ body{
 .counter{
     background: black;
     color: white;
-    font-size: 4rem;;
-    .svg-inline--fa{
-        margin: 1rem 2rem;
-    }
+    font-size: 4rem;
+    padding: 1rem 3rem; 
     .digit{
+        margin-left: 1rem;
+    }
+    .clock, .digit{
         border-left: 1px solid #e9e8e8;
         padding: 1rem 2rem;
 }
+}
+
+.bg-elements{
+    background: green;
 }
 
 

@@ -6,13 +6,20 @@ import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 export function SimpleCounter(props) {
 	return (
-		<div className="counter d-flex flex-row align-items-center justify-content-center">
-			<FontAwesomeIcon icon={faClock} />
-			<div className="digit">{props.five % 10}</div>
-			<div className="digit">{props.four % 10}</div>
-			<div className="digit">{props.three % 10}</div>
-			<div className="digit">{props.two % 10}</div>
-			<div className="digit">{props.one % 10}</div>
+		<div className="counter d-flex flex-row align-items-center justify-content-between">
+			<div className="clock bg-elements">
+				<FontAwesomeIcon icon={faClock} />
+			</div>
+
+			<div className="digit bg-elements">{props.five % 10}</div>
+
+			<div className="digit bg-elements">{props.four % 10}</div>
+
+			<div className="digit bg-elements">{props.three % 10}</div>
+
+			<div className="digit bg-elements">{props.two % 10}</div>
+
+			<div className="digit bg-elements">{props.one % 10}</div>
 		</div>
 	);
 }
