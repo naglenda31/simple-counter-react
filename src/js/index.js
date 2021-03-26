@@ -20,6 +20,7 @@ setInterval(() => {
 	let three = Math.floor(counter / 100);
 	let four = Math.floor(counter / 1000);
 	let five = Math.floor(counter / 10000);
+	let six = Math.floor(counter / 100000);
 	// render counter component
 	counter++;
 	ReactDOM.render(
@@ -29,6 +30,7 @@ setInterval(() => {
 			three={three}
 			four={four}
 			five={five}
+			six={six}
 		/>,
 		document.querySelector("#app")
 	);
