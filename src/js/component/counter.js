@@ -6,7 +6,7 @@ import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 export function SimpleCounter(props) {
 	return (
-		<div className="counter d-flex flex-row align-items-center justify-content-between">
+		<div className="counter d-flex flex-row align-items-center justify-content-center">
 			<div className="clock">
 				<FontAwesomeIcon icon={faClock} />
 			</div>
